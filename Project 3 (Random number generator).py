@@ -13,7 +13,6 @@ def get_num(amount: int ) -> list[int]:
     return l
 
 def main():
-    l = []
     while True:
         try:
             n = input("How many number you want to generate (type exit to stop the programme): ")
